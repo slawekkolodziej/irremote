@@ -10,7 +10,7 @@ void ir_set_pin(uint8_t pin) {
 }
 
 void ir_set_frequency(uint16_t khz) {
-  frequency = 1000 / khz;
+  frequency = 1000 / khz / 2;
 }
 
 void ir_mark(uint16_t time) {
